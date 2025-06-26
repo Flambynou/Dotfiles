@@ -1,0 +1,80 @@
+* {
+  font-family: FontAwesome, Source code pro;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 6px 12px;
+}
+
+#workspaces button,
+#pulseaudio,
+#backlight,
+#network,
+#battery,
+#clock {
+  background: transparent;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+#workspaces button.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+#workspaces button:hover,
+#pulseaudio:hover,
+#backlight:hover,
+#network:hover,
+#battery:hover,
+#backlight-slider:hover,
+#clock:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+tooltip {
+  background: rgba(40, 40, 40, 0.95);
+  color: white;
+  border: 1px solid rgba(200, 200, 200, 0.95);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+#backlight-slider {
+  color: white;
+  padding: 0 8px;
+  margin: 0 6px;
+  border-radius: 6px;
+  background: transparent;
+  transition: background 0.2s ease;
+  min-width: 70px;
+}
+
+#backlight-slider trough {
+  min-height: 4px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#backlight-slider highlight {
+  background-color: white;
+  border-radius: 3px;
+}
+
+#backlight-slider slider {
+  background-color: white;
+  border-radius: 100%;
+  min-width: 10px;
+  min-height: 10px;
+}

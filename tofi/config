@@ -1,0 +1,13 @@
+### Fonts
+	font = /usr/fonts/iosevka.zip
+
+### Behavior
+	hide-cursor = true
+
+	history = true
+
+	#matching-algorithm = fuzzy
+
+	drun-launch = true
+
+	multi-instance = false
