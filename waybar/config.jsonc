@@ -17,6 +17,7 @@
     "pulseaudio",
     "backlight/slider",
     "network",
+    "tray",
     "battery"
   ],
   "clock": {
@@ -58,12 +59,15 @@
   },
   "network": {
     "interval": 2,
-    "format-wifi": "{essid}  {signalStrength}%",
-    "format-ethernet": " {ipaddr}",
+    "format-wifi": "{essid} {signalStrength}%",
+    "format-ethernet": "{ipaddr}",
     "format-disconnected": "⚠ Disconnected",
     "tooltip": true,
     "tooltip-format": "Download: {bandwidthDownBits} ↓\nUpload: {bandwidthUpBits} ↑",
-    "on-click": "ghostty -e nmtui"
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 5
   },
   "battery": {
     "interval": 20,
