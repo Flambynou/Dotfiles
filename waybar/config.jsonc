@@ -58,7 +58,7 @@
     "min": 1
   },
   "network": {
-    "interval": 2,
+    "interval": 10,
     "format-wifi": "{essid} {signalStrength}%",
     "format-ethernet": "{ipaddr}",
     "format-disconnected": "⚠ Disconnected",
@@ -70,7 +70,7 @@
     "spacing": 5
   },
   "battery": {
-    "interval": 20,
+    "interval": 30,
     "format": "{icon} {capacity}%",
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
