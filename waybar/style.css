@@ -18,6 +18,7 @@ window#waybar {
 #workspaces button,
 #pulseaudio,
 #backlight,
+#hypridle,
 #network,
 #battery,
 #clock {
@@ -37,6 +38,7 @@ window#waybar {
 #workspaces button:hover,
 #pulseaudio:hover,
 #backlight:hover,
+#hypridle:hover,
 #network:hover,
 #battery:hover,
 #backlight-slider:hover,
