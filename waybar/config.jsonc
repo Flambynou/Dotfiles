@@ -14,9 +14,9 @@
   ],
   // Modules on the right side of the bar
   "modules-right": [
+    "custom/hypridle",
     "pulseaudio",
     "backlight/slider",
-    "custom/hypridle",
     "network",
     "tray",
     "battery"
@@ -59,7 +59,7 @@
     "min": 1
   },
   "custom/hypridle": {
-    "format": "",
+    "format": " ",
     "return-type": "json",
     "escape": true,
     "exec-on-event": true,
