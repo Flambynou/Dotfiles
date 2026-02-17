@@ -10,3 +10,10 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
